@@ -1,5 +1,4 @@
 var ABI = [
-[
 	{
 		"inputs": [
 			{
