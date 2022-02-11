@@ -10,14 +10,25 @@ var ABI = [
       {
       "internalType":"string",
       "name":"_symbol",
-     "type":"string"},
-    {"internalType":"string","name":"_initBaseURI","type":"string"},
-    {"internalType":"string","name":"_initNotRevealedUri",
-     "type":"string"}],
+     "type":"string"
+      },
+    {
+      "internalType":"string",
+      "name":"_initBaseURI",
+      "type":"string"
+    },
+    {
+      "internalType":"string",
+      "name":"_initNotRevealedUri",
+     "type":"string"
+    }
+    ],
    "stateMutability":"nonpayable",
-   "type":"constructor"},
+   "type":"constructor"
+  },
   
-  {"anonymous":false,
+  {
+    "anonymous":false,
    "inputs":[{"indexed":true,
               "internalType":"address",
               "name":"owner",
@@ -35,7 +46,8 @@ var ABI = [
   },
   {
     "anonymous":false,
-   "inputs":[{"indexed":true,
+   "inputs":[
+     {"indexed":true,
               "internalType":"address",
               "name":"owner",
               "type":"address"},
