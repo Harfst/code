@@ -1,9 +1,15 @@
 var ABI = [
-  {"inputs":[
-    {"internalType":"string",
+  {
+    "inputs":[
+    
+      {
+        "internalType":"string",
      "name":"_name",
-     "type":"string"},
-    {"internalType":"string","name":"_symbol",
+     "type":"string"
+      },
+      {
+      "internalType":"string",
+      "name":"_symbol",
      "type":"string"},
     {"internalType":"string","name":"_initBaseURI","type":"string"},
     {"internalType":"string","name":"_initNotRevealedUri",
