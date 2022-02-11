@@ -1,4 +1,4 @@
-[	{
+	{
 		"inputs": [
 			{
 				"internalType": "string",
@@ -833,4 +833,4 @@
 		"stateMutability": "nonpayable",
 		"type": "function"
 	}
-]
+
